@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar left start menu bar*/
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FDFEFE;
+    text-transform: uppercase;
+
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #15cdea;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2ECC71;
+}
+
+.navbar-light .navbar-nav .nav-link a:active {
+    color: aqua;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(228, 14, 14, 0.5);
+    border-color: rgba(0, 0, 0, .1);
+    background-color: #28CF6F;
+}
+
+a {
+
+    text-decoration: none;
+    text-align: center;
+    background-color: #495057d6;
+
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+/* slider start hare*/
+
+
+#slider {
+    background: url(../images/hbg.jpg);
+    background-repeat: repeat-x;
+}
+
+.slider-overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+
+.carousel-item {
+    padding: 180px 0;
+    color: white;
+}
+
+.carousel-item h3 {
+    font-size: 20px;
+}
+
+.carousel-item h2 {
+    font-size: 60px;
+    border: 3px solid white;
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.carousel-item h4 {
+    font-size: 18px;
+}
+
+
+.carousel-item span {
+    color: #58D68D;
+}
+
+
+/*about content section css start hare*/
+
+
+#about {
+    color: black;
+    padding: 110px 0;
+}
+
+.about-top h2 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-top p {
+
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-content {}
+
+
+.about-icon i {
+
+    font-size: 35px;
+
+}
+
+
+
+.about-icon h2 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+
+.about-icon p {
+
+    font-size: 15px;
+
+}
+
+
+.about-icon:hover i,
+.about-icon:hover h2 {
+    color: #09C258;
+}
+
+
+/*service section start hare*/
+
+
+#our-team {
+    background-color: #D4DED8;
+    padding: 90px 0;
+
+}
+
+.service-icon img {
+    width: 100%;
+
+}
+
+.service-icon {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-overlay {
+
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+
+}
+
+
+.service-icon:hover .about-overlay {
+
+    top: 0;
+
+}
+
+
+.about-icon-overlay {
+
+    position: absolute;
+    left: 25%;
+    bottom: -100%;
+    transition: .5s
+}
+
+
+.about-icon-overlay i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    transition: .5s
+}
+
+
+
+.service-icon:hover .about-icon-overlay {
+
+    bottom: 40%;
+}
+
+.about-icon-overlay i:hover {
+    background: #2ECC71;
+    border: 1px solid #2ECC71;
+}
+
+
+
+
+/*portfolio section start hare*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: black;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-right: 12px;
+
+}
+
+
+
+.button:hover {
+    background-color: #2ECC71;
+    color: white;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #2ECC71;
+}
+
+.button.is-checked {
+    color: white;
+
+}
+
+
+#portfolio {
+
+    padding: 100px 0;
+}
+
+#portfolio p {
+
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#portfolio h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* ---- isotope ---- */
+
+
+
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    color: #262524;
+    width: 33%;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.element-item img {
+    width: 100%;
+}
+
+
+.isotop-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+}
+
+.element-item:hover .isotop-overlay {
+    top: 0;
+}
+
+
+.isotop-overlay h2 {
+    color: #58D68D;
+    margin-top: 50%;
+    bottom: -100%;
+    font-size: 12.75px;
+
+}
+
+
+/* ---- Pricing table start hare ---- */
+
+
+
+#pricing-table {
+
+    padding: 100px 0;
+
+
+}
+
+.pricing {
+    background: #424949;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+    margin-top: 20px;
+
+}
+
+.pricing-top {
+
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin: 0 auto;
+
+
+}
+
+.pricing-top p {
+    margin-top: 20px;
+}
+
+.pricing-top sup {
+    font-size: 20px;
+    top: -3px;
+    left: -5px;
+}
+
+.pricing-top em {
+    font-size: 25px;
+}
+
+.pricing-top span {
+    text-transform: uppercas;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.pricing ul {
+    padding: 0;
+}
+
+
+.pricing ul li {
+
+    max-width: 145px;
+    border-bottom: 1px solid white;
+    list-style: none;
+    margin: 0 auto;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.btn {
+    background: white;
+    color: #424949;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5p 20px;
+    transition: .5s;
+}
+
+.btn a {
+    text-decoration: none;
+    background: white;
+    color: #424949;
+
+}
+
+
+.pricing:hover {
+    background: #58D68D;
+    color: white;
+}
+
+
+.pricing:hover .btn {
+
+    background: white;
+    color: #58D68D;
+}
+
+.pricing:hover .pricing-top {
+    background: white;
+    color: #58D68D;
+}
+
+
+/* ---- contact-us start hare ---- */
+
+
+#contact-us {
+    padding: 100px 0;
+}
+
+
+.about-top p {
+    padding-top: 20px;
+}
+
+
+.contect-icon {
+    color: black;
+
+}
+
+.contect-icon i {
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+
+.contect-icon h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+.contect-icon h4 {
+    font-size: 15px;
+
+
+}
+
+.contect-icon:hover i,
+h3 {
+    transition: .5s;
+}
+
+.contect-icon:hover i,
+.contect-icon:hover h3 {
+
+    color: #58D68D;
+
+}
+
+
+
+/* ---- contact-form start hare ---- */
+
+#contact-form {
+
+    padding: 80px 0;
+    background-color: #E2F3E9;
+}
+
+.form-control {
+    border-radius: 0;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+
+.message-area textarea {
+    height: 80px;
+
+}
+
+
+.message-area button {
+    margin-top: 10px;
+    background-color: #58d68d;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+button,
+input {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #58d68d;
+    border-color: #58d68d;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #58d68d;
+    border-color: #58d68d;
+}
+
+
+.btn {
+    border: none;
+    border-radius: 0;
+}
+
+
+
+/* ---- google-map start hare ---- */
+
+
+iframe {
+
+    width: 100%;
+    height: 50%;
+    margin-top: 15px;
+    border: 2px solid #58d68d;
+}
+
+
+
+.back-to-top img {
+    width: 50px;
+    height: 50px;
+}
+
+#toTop {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 48px;
+}
+
+#toTop {
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    opacity: 0.5;
+    display: none;
+    cursor: pointer;
+}
+
+#toTop:hover {
+    opacity: 1;
+}
+
+/* ---- footer start hare ---- */
+
+#footer {
+    background: black;
+    padding: 15px 0;
+    color: white;
+    margin-top: 10px;
+}
+
+.footer-text p {
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+
+.footer-icon i {
+
+    font-size: 20px;
+    transition: .5s;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    margin: 0 5px 0 5px;
+}
+
+
+.footer-icon i:hover {
+    color: #58d68d;
+}
